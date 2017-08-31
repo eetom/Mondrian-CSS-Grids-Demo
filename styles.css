@@ -1,0 +1,65 @@
+/*Mondrian CSS Grids Demo*/
+
+.main-title {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 30px;
+	color: #333333;
+	font-weight: 800;
+	margin: 40px auto 30px auto;
+	text-align: center;
+}
+
+.main-title p{
+	font-size: 20px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 175px 300px 100px;
+	grid-template-rows: 300px 200px 100px;	
+	margin: 15px auto 40px auto;
+	width: 575px;
+	border: 5px solid black;
+}
+
+.item-a {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: yellow;
+  border: 5px solid black;
+}
+
+.item-b {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+  background-color: red;
+  border: 5px solid black;
+}
+
+.item-c {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: blue;
+  border: 5px solid black;
+}
+
+.item-e {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: white;
+  border: 5px solid black;
+}
+
+.item-f {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: white;
+  border: 5px solid black;
+}
+
+.item-g {
+  grid-column: 3;
+  grid-row: 3;
+  background-color: white;
+  border: 5px solid black;
+}
