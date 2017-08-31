@@ -6,4 +6,4 @@ Created with help from CSS Grid Tutorial
 https://css-tricks.com/snippets/css/complete-guide-grid/
 
 Here's how I dimensioned each section
-![Visual Measurement Graph](Visual-Measurements.png "Visual Measurements" | width=200)
+![Visual Measurement Graph](Visual-Measurements.png | width=200)
