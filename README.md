@@ -6,4 +6,4 @@ Created with help from CSS Grid Tutorial
 https://css-tricks.com/snippets/css/complete-guide-grid/
 
 Here's how I dimensioned each section
-![Visual Measurement Graph](Visual-Measurements.png){:height="50%" width="50%"}
+![Visual Measurement Graph](Visual-Measurements.png =250x)
