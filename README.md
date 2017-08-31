@@ -7,5 +7,3 @@ https://css-tricks.com/snippets/css/complete-guide-grid/
 
 Here's how I dimensioned each section
 ![Visual Measurement Graph](Visual-Measurements.png)
-
-<img src="Visual-Measurements.png" alt="Visual Measurement Graph" style="width: 250px;"/>
