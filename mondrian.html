@@ -66,6 +66,36 @@
       <div class="grid">
         <div class="item-a"></div>
       </div>
+
+      <p>For trickier sections; such as the red section that spans multiple rows and columns. Set up the style like so:</p>
+      <p class="code">
+        .item-b { <br>
+        &nbsp;grid-column: 2/4; <br>
+        &nbsp;grid-row: 1/3; <br>
+        &nbsp;background-color: red; <br>
+        &nbsp;border: 5px solid black; <br>
+        }
+      </p>
+      <p>This creates a section that covers BETWEEN the start columns 2 and start 4<br> And BETWEEN the start of row 1 and the start of row 3</p>
+      <div class="grid">
+        <div class="item-b"></div>
+      </div>
+
+      <p>Put it all togther by styling the rest of the sections a,b,c,d,e,f</p>
+      <div class="grid">
+        <!-- Colour Sections -->
+        <div class="item-a"><</div>
+        <div class="item-b"></div>
+        <div class="item-c"></div>
+
+        <!-- White sections -->
+        <div class="item-e"></div>
+        <div class="item-f"><</div>
+        <div class="item-g"></div>
+      </div>
+      <p>Feel free to use this a base to experiment and try different things with CSS grids!</p>
+
+      <p><a href="https://github.com/eetom">View this project on GitHub</a></p>
     </div>
   </body>
 </html>
